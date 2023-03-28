@@ -5,9 +5,7 @@ import React from "react";
 const Form = () => {
 	return (
 		<div className="form">
-			<form
-				action="https://formsubmit.co/maese99@gmail.com"
-				method="POST">
+			<form action="https://formsubmit.co/maese99@gmail.com" method="POST">
 				{/* honeypot */}
 				<input type="text" name="_honey" style={{ display: "none" }} />
 
@@ -15,12 +13,16 @@ const Form = () => {
 				<input type="hidden" name="_captcha" value="false" />
 
 				{/* submition success link */}
-                <input type="hidden" name="_next" value="http://erickmaese.github.io/portfolio2/success"/>
+				<input
+					type="hidden"
+					name="_next"
+					value="http://erickmaese.github.io/portfolio/success"
+				/>
 
 				<label>Your Name</label>
-				<input type="text" name="name" required/>
+				<input type="text" name="name" required />
 				<label>Email</label>
-				<input type="email" name="email" required/>
+				<input type="email" name="email" required />
 				<label>Subject</label>
 				<input type="text" name="subject" />
 				<label>Message</label>
