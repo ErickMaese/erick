@@ -5,7 +5,7 @@ import React from "react";
 const Form = () => {
 	return (
 		<div className="form">
-			<form action="https://formsubmit.co/maese99@gmail.com" method="POST">
+			<form action="https://formsubmit.co/4de520798acec722847de1216929a9a3" method="POST">
 				{/* honeypot */}
 				<input type="text" name="_honey" style={{ display: "none" }} />
 
