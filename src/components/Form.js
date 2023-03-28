@@ -16,7 +16,7 @@ const Form = () => {
 				<input
 					type="hidden"
 					name="_next"
-					value="http://erickmaese.github.io/portfolio/success"
+					value="http://erickmaese.github.io/success"
 				/>
 
 				<label>Your Name</label>
