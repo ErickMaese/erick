@@ -16,7 +16,7 @@ const AboutContent = () => {
 				<div className="left">
 					<h1>Who am I</h1>
 					<p>
-						Full Stack Software Engineer experienced in building applications
+						A Software Engineer experienced in building applications
 						with JavaScript (ES6+), React, Node, Express, and relational
 						databases. Active open-source contributor, creating tools that solve
 						problems and improve client experience.
