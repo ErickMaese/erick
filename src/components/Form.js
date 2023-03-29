@@ -1,11 +1,23 @@
 import "./FormStyles.css";
-
+import { useNavigate } from "react-router-dom";
 import React from "react";
 
 const Form = () => {
+	const navigate = useNavigate();
+
+	const handleSubmit = (event) => {
+		event.preventDefault();
+
+		// 👇️ redirect to /contacts
+		navigate("/success");
+	};
+
 	return (
 		<div className="form">
-			<form action="https://formsubmit.co/4de520798acec722847de1216929a9a3" method="POST">
+			<form
+				onSubmit={handleSubmit}
+				action="https://formsubmit.co/4de520798acec722847de1216929a9a3"
+				method="POST">
 				{/* honeypot */}
 				<input type="text" name="_honey" style={{ display: "none" }} />
 
@@ -13,11 +25,11 @@ const Form = () => {
 				<input type="hidden" name="_captcha" value="false" />
 
 				{/* submition success link */}
-				<input
+				{/*<input
 					type="hidden"
 					name="_next"
 					value="http://erickmaese.github.io/success"
-				/>
+	/>*/}
 
 				<label>Your Name</label>
 				<input type="text" name="name" required />
