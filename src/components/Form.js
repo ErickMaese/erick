@@ -26,7 +26,7 @@ const Form = () => {
 				<input type="hidden" name="_captcha" value="false" />
 
 				{/* submition success link - did not work when deployed*/}
-				<input type="hidden" name="_next" value="http://localhost:3000/success" />
+				<input type="hidden" name="_next" value="https://erickmaese.github.io/success" />
 
 				<label>Your Name</label>
 				<input type="text" name="name" required />
