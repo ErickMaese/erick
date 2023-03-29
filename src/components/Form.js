@@ -7,7 +7,7 @@ const Form = () => {
 
 	// submition success link
 	const handleSubmit = (event) => {
-		event.preventDefault();
+		// event.preventDefault();
 
 		// 👇️ redirect to /contacts
 		navigate("/success");
@@ -16,7 +16,7 @@ const Form = () => {
 	return (
 		<div className="form">
 			<form
-				onSubmit={handleSubmit}
+
 				action="https://formsubmit.co/4de520798acec722847de1216929a9a3"
 				method="POST">
 				{/* honeypot */}
@@ -26,11 +26,7 @@ const Form = () => {
 				<input type="hidden" name="_captcha" value="false" />
 
 				{/* submition success link - did not work when deployed*/}
-				{/*<input
-					type="hidden"
-					name="_next"
-					value="http://erickmaese.github.io/success"
-	/>*/}
+				<input type="hidden" name="_next" value="http://localhost:3000/success" />
 
 				<label>Your Name</label>
 				<input type="text" name="name" required />
@@ -43,7 +39,9 @@ const Form = () => {
 					rows="6"
 					placeholder="Type your message here"
 					name="message"></textarea>
-				<button className="btn">Submet</button>
+				<button className="btn">
+					Submet
+				</button>
 			</form>
 		</div>
 	);
