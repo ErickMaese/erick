@@ -5,6 +5,7 @@ import React from "react";
 const Form = () => {
 	const navigate = useNavigate();
 
+	// submition success link
 	const handleSubmit = (event) => {
 		event.preventDefault();
 
@@ -24,7 +25,7 @@ const Form = () => {
 				{/* Disable Captcha */}
 				<input type="hidden" name="_captcha" value="false" />
 
-				{/* submition success link */}
+				{/* submition success link - did not work when deployed*/}
 				{/*<input
 					type="hidden"
 					name="_next"
