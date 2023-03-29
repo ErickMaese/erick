@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/erick/static/css/main.e9c94b33.css",
-    "main.js": "/erick/static/js/main.aec1c227.js",
-    "static/media/hero5.jpg": "/erick/static/media/hero5.482f33f2615ecba89f77.jpg",
-    "static/media/hero3.jpg": "/erick/static/media/hero3.d5b3f2b7e5dfcafef6ee.jpg",
-    "static/media/hero.jpg": "/erick/static/media/hero.70af6fb402eba483e531.jpg",
-    "static/media/hero4.jpg": "/erick/static/media/hero4.8748094737881aa063c2.jpg",
-    "static/media/erick.jpg": "/erick/static/media/erick.408d5d2c7f57c0a14b53.jpg",
-    "static/media/weather-app.png": "/erick/static/media/weather-app.d3bd4dd1efd1248b8727.png",
-    "static/media/react3.jpg": "/erick/static/media/react3.ecf1da72919ce9b114f9.jpg",
-    "static/media/delorean.png": "/erick/static/media/delorean.b1fc11c9aaa7c42792e4.png",
-    "static/media/chat-zone.png": "/erick/static/media/chat-zone.c4fe298ddd8774b7dd5b.png",
-    "index.html": "/erick/index.html",
-    "main.e9c94b33.css.map": "/erick/static/css/main.e9c94b33.css.map",
-    "main.aec1c227.js.map": "/erick/static/js/main.aec1c227.js.map"
+    "main.css": "/static/css/main.e9c94b33.css",
+    "main.js": "/static/js/main.b23fac84.js",
+    "static/media/hero5.jpg": "/static/media/hero5.482f33f2615ecba89f77.jpg",
+    "static/media/hero3.jpg": "/static/media/hero3.d5b3f2b7e5dfcafef6ee.jpg",
+    "static/media/hero.jpg": "/static/media/hero.70af6fb402eba483e531.jpg",
+    "static/media/hero4.jpg": "/static/media/hero4.8748094737881aa063c2.jpg",
+    "static/media/erick.jpg": "/static/media/erick.408d5d2c7f57c0a14b53.jpg",
+    "static/media/weather-app.png": "/static/media/weather-app.d3bd4dd1efd1248b8727.png",
+    "static/media/react3.jpg": "/static/media/react3.ecf1da72919ce9b114f9.jpg",
+    "static/media/delorean.png": "/static/media/delorean.b1fc11c9aaa7c42792e4.png",
+    "static/media/chat-zone.png": "/static/media/chat-zone.c4fe298ddd8774b7dd5b.png",
+    "index.html": "/index.html",
+    "main.e9c94b33.css.map": "/static/css/main.e9c94b33.css.map",
+    "main.b23fac84.js.map": "/static/js/main.b23fac84.js.map"
   },
   "entrypoints": [
     "static/css/main.e9c94b33.css",
-    "static/js/main.aec1c227.js"
+    "static/js/main.b23fac84.js"
   ]
 }
