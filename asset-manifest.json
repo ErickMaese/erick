@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.4f7622b0.css",
-    "main.js": "/static/js/main.57989e84.js",
+    "main.js": "/static/js/main.5d2855b8.js",
     "static/media/hero5.jpg": "/static/media/hero5.482f33f2615ecba89f77.jpg",
     "static/media/hero3.jpg": "/static/media/hero3.d5b3f2b7e5dfcafef6ee.jpg",
     "static/media/hero.jpg": "/static/media/hero.70af6fb402eba483e531.jpg",
     "static/media/hero4.jpg": "/static/media/hero4.8748094737881aa063c2.jpg",
     "static/media/erick.jpg": "/static/media/erick.408d5d2c7f57c0a14b53.jpg",
     "static/media/weather-app.png": "/static/media/weather-app.d3bd4dd1efd1248b8727.png",
+    "static/media/calcImg.png": "/static/media/calcImg.c6f0b68f28ab70dd61e9.png",
     "static/media/react3.jpg": "/static/media/react3.ecf1da72919ce9b114f9.jpg",
     "static/media/delorean.png": "/static/media/delorean.b1fc11c9aaa7c42792e4.png",
     "static/media/chat-zone.png": "/static/media/chat-zone.c4fe298ddd8774b7dd5b.png",
     "index.html": "/index.html",
     "main.4f7622b0.css.map": "/static/css/main.4f7622b0.css.map",
-    "main.57989e84.js.map": "/static/js/main.57989e84.js.map"
+    "main.5d2855b8.js.map": "/static/js/main.5d2855b8.js.map"
   },
   "entrypoints": [
     "static/css/main.4f7622b0.css",
-    "static/js/main.57989e84.js"
+    "static/js/main.5d2855b8.js"
   ]
 }
