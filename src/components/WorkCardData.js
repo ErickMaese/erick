@@ -1,7 +1,7 @@
 import Delorean from "../assets/delorean.png";
 import Weather from "../assets/weather-app.png";
 import ChatZone from "../assets/chat-zone.png"
-import Calc from "../assetscalcImg.png"
+import Calc from "../assets/calcImg.png"
 
 const ProjectCardData = [
 	{
