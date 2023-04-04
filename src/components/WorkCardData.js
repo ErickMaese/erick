@@ -1,6 +1,7 @@
 import Delorean from "../assets/delorean.png";
 import Weather from "../assets/weather-app.png";
 import ChatZone from "../assets/chat-zone.png"
+import Calc from "../assetscalcImg.png"
 
 const ProjectCardData = [
 	{
@@ -23,6 +24,13 @@ const ProjectCardData = [
 		text: "Top Secret Ultra Exclusive Cool People Messenger! Editable user profiles Improve user experience by allowing users to use the built-in back button when navigating between user profile and message boards",
 		view: "https://https://erickmaese.github.io/chatzone/",
 		source: "https://github.com/cat-snake-47/chatroom",
+	},
+	{
+		imgsrc: Calc,
+		title: "Calc",
+		text: "This is a simple calculator application created using HTML, CSS, and JavaScript. The app allows users to perform basic arithmetic operations, such as addition, subtraction, multiplication, and division, on two numbers.",
+		view: "https://erickmaese.github.io/calc/",
+		source: "https://github.com/ErickMaese/calc",
 	},
 ];
 
